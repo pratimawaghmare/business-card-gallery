@@ -1,0 +1,60 @@
+.mainContainer{
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 25px;
+    border-radius: 10px;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.personName{
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+    font-family: 'baskervville-italic';
+}
+.nameContainer{
+    display: flex;
+    flex-direction: row;
+}
+.nameContainerIcon{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.titleContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.filledCircle{
+    margin-left: 6px;
+    margin-right: 3px;
+}
+.location{
+    font-size: 14px;
+    font-weight: 500;
+    color: #ccc;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 15px 0px 15px 0px;
+    padding: 0;
+}
+.subContainer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.subTitle{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'baskervville-italic';
+    width: 80px;
+}

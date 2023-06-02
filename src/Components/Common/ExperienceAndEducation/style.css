@@ -1,0 +1,27 @@
+p{
+    padding: 0px;
+    margin: 0px;
+}
+.listConatiner{
+    display: flex;
+    flex-direction: column;
+}
+.listSubContainer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.companyLogo{
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.names{
+font-size: 14px;
+font-weight: 500;
+width: 340px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
